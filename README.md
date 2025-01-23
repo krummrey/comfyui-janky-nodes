@@ -12,8 +12,8 @@ Experimental nodes for image post-processing in ComfyUI.
 - Aspect ratio preservation
 
 ### 2. Image Enhancement Nodes:
-![Sample](https://github.com/krummrey/comfyui-janky-nodes/blob/8982ae83c54efcef231ecd41ce96821a3b2568b4/examples/Edge%20Aware%20Smoothing%20Sample.png)
 - **Edge-Aware Smoothing**:
+![Sample](https://github.com/krummrey/comfyui-janky-nodes/blob/8982ae83c54efcef231ecd41ce96821a3b2568b4/examples/Edge%20Aware%20Smoothing%20Sample.png)
   - 5 preset modes (Cartoon, Noise Reduction, etc.)
   - Grayscale/RGB processing
   - Iterative filtering
@@ -29,7 +29,11 @@ Experimental nodes for image post-processing in ComfyUI.
 1. **Clone Repository**:
    ```bash
    cd ComfyUI/custom_nodes
-   git clone https://github.com/yourusername/comfyui-janky-nodes.git
+   git clone https://github.com/yourusername/comfyui-janky-nodes.git```
+   
+2. **Load models**:
+	download the models provided on the [original repo](https://github.com/carolineec/informative-drawings) and place them in:
+	```models/informative_drawing_models/```
    
 ## Credits
 - Informative Drawings implementation based on original work by [Caroline Chan](https://github.com/carolineec/informative-drawings)
