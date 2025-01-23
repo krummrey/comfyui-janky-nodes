@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+env/
+.env
+
+# ComfyUI
+custom_nodes/__pycache__/
+models/
+output/
+temp/
+
+# System files
+.DS_Store
+Thumbs.db
+
